@@ -17,4 +17,5 @@ gulp.task("css", () => {
 
 gulp.task("default", ["css"], () => {
   gulp.watch(PATHS.config, ["css"]);
+  gulp.watch(PATHS.css, ["css"]);
 });

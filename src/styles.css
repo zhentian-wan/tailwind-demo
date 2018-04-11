@@ -60,3 +60,12 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
+
+  @variants hover, focus, responsive {
+    .banana {
+      color: yellow;
+    }
+    .chocolate {
+      color: brown;
+    }
+  }
